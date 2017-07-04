@@ -40,6 +40,7 @@ input{
     line-height: 30px;
     position: relative;
     color: #333;
+    cursor: pointer;
 }
 .left>h3>span,.right>h3>span,.right>ul>li>span:last-child{
     position: absolute;
@@ -86,8 +87,6 @@ input{
     position: absolute;
     bottom: 10px;
     left: 20px;
+    cursor: pointer;
 }
-.right>div{
-    width:100%;
-    display: none;
-}
+

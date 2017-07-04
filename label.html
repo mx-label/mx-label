@@ -46,7 +46,7 @@
                     </h3>
                     <ul>
                         <li ng-repeat="item1 in one.son track by $index" style="list-style: none;border-bottom: 1px solid #eee">
-                            <span class="glyphicon glyphicon-hourglass" ng-click="do(one.id,item1.id)" ></span>
+                            <span title="点击之后默认完成"  class="glyphicon glyphicon-hourglass" ng-click="do(one.id,item1.id)" ></span>
                             <input type="text" ng-model="item1.value"  ng-keyup="up()">
                             <span class="glyphicon glyphicon-trash" ng-click="del_con(one.id,item1.id)"></span>
                         </li>
